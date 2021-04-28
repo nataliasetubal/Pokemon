@@ -1,0 +1,215 @@
+/* Formatações gerais */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Impact, fantasy;
+}
+
+h1, h2, p, a{
+  text-align: center;
+  color: #f89404;
+  text-shadow: 3px 2px #021f44;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 5% 0 0 0;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+button {
+  display: inline-block;
+  border-radius: 50px;
+  border-style: none;
+  background: none;
+  font-size: 1.6em;
+  font-family: Impact, fantasy;
+  color: #f89404;
+  text-shadow: 4px 1px black;
+}
+
+/* Formatações página inícial */
+
+.containerPokemons {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.evolucoes {
+  margin: 0 auto;
+  width: 200px;
+  height: 250px;
+  display: block;
+}
+
+#pokemon-logo {
+  max-width: 600px;
+  height: 25%;
+}
+
+.evolucoesTitulo {
+  height: 15%;
+}
+
+.opcoes {
+  text-align: center;
+  width: 80%;
+  margin: 5% auto;
+}
+
+.pokemonsImagens {
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 3px solid red;
+  ;
+}
+
+/* Backgrounds */
+
+.escolha {
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  height: 100%;
+}
+
+.evolucaoWartortle {
+  background-image: radial-gradient( circle at 50% 50%, #91c7ff 0, #0e75f5 50%, #002b76 100%);
+  height: 100%;
+}
+
+.evolucaoCharmander {
+  height: 100%;
+  background-image: radial-gradient( circle at 50% 50%, #ff8500 0, #ff6f00 12.5%, #ff5700 25%, #ff3b00 37.5%, #f50e0e 50%, #e4001c 62.5%, #d40024 75%, #c5002b 87.5%, #b70032 100%);
+}
+
+.evolucaoRaichu {
+  background-image: radial-gradient( circle at 50% 50%, #ffff8a 0, #fff959 25%, #f8ce05 50%, #d8a400 75%, #be8000 100%);
+  height: 100%;
+}
+
+/* Animações das evoluções */
+
+#evolucaoCharmander {
+  animation-duration: 2s;
+  animation-name: fade1;
+  animation-iteration-count: 1;
+}
+
+#evolucaoWartortle {
+  animation-duration: 2s;
+  animation-name: fade1;
+  animation-iteration-count: 1;
+}
+
+#evolucaoRaichu {
+  animation-duration: 2s;
+  animation-name: fade1;
+  animation-iteration-count: 1;
+}
+
+@keyframes fade1 {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+/* Páginas de Vitória e Derrota */
+.Vitoria {
+  background-color: #BF1E2E;
+}
+
+.Derrota{
+  background-color: #6caf56;
+}
+
+.gifContainer {
+  position: fixed;
+  left: 35.38%;
+  right: 35.31%;
+  top: 27.2%;
+  bottom: 27.2%;
+  z-index: 1;
+  text-align: center;
+}
+
+.gifContainer iframe{
+  width: 100%;
+  height: 100%;
+}
+
+.background{
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+/* Formatações para responsividade */
+
+@media(max-width: 600px) {
+  button {
+    font-size: 1.9em;
+  }
+  .escolha {
+    height: 100%;
+    display: flex;
+    align-self: center;
+  }
+  #pokemon-logo {
+    height: 15%;
+    margin-top: 15%;
+    align-self: center;
+  }
+  .containerPokemons {
+    display: flex;
+    justify-content: space-around;
+    height: 25%;
+    margin: 0 auto;
+  }
+  img.pokemonsImagens {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+  h2 {
+    font-size: 2em;
+    margin: 23% 2%;
+  }
+  .evolucaoCharmander {
+    height: 100%;
+    display: flex;
+    align-self: center;
+  }
+  .evolucoes {
+    margin: 0 15% 5% 15%;
+    width: 200px;
+    height: 250px;
+    display: block;
+  }
+  .opcoes {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+  }
+  .evolucoesTitulo {
+    font-size: 2.5em;
+  }
+  .gifContainer{
+    left: 15%;
+    right: 15%;
+    top: 15%;
+    bottom: 40%;
+  }
+}
