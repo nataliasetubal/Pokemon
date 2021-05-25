@@ -5,18 +5,23 @@
     <title>Escolha seu Pokemon!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
     <script src="/js/acoes.js"></script>
 </head>
 
 
-<body  class="evolucaoWartortle">
-        <div class="container" id="evolucaoWartortle">
-            <h1 class="evolucoesTitulo">Qual o nome deste Pokemon?</h1>
-            <img src="imagens/wartotle-vetorial.png" class="evolucoes">
-            <div class="opcoes">
-                <button type="button" onclick="Enviar2('Venusaur')">Venusaur</button>
-                <button type="button" onclick="Enviar2('Wartortle')">Wartortle</button>
-                <button type="button" onclick="Enviar2('Pidgey')">Pidgey</button>
-            </div>
+<body class="evolucaoWartortle">
+    <div class="container">
+        <h1 class="evolucoesTitulo">Qual o nome deste Pokemon?</h1>
+        <div>
+            <img src="imagens/wartotle-vetorial.png" class="evolucoes animations">
         </div>
+        
+        <div class="opcoes animations">
+            <button type="button" onclick="Enviar2('Venusaur')">Venusaur</button>
+            <button type="button" onclick="Enviar2('Wartortle')">Wartortle</button>
+            <button type="button" onclick="Enviar2('Pidgey')">Pidgey</button>
+        </div>
+    </div>
 </body>

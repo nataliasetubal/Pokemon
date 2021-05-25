@@ -1,0 +1,66 @@
+/* Formatações página inícial */
+html{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerPokemons {
+  width: 800px;
+  height: 300px;
+}
+
+.containerOverflow {
+  overflow-x: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 5px;
+  scrollbar-width: thin;
+  scrollbar-color: #D62929 transparent;
+}
+
+.containerOverflow:first-child{
+  padding-left: 15px;
+}
+
+#style-2::-webkit-scrollbar-track:hover {
+  border-radius: 10px;
+}
+
+#style-2::-webkit-scrollbar {
+  width: 5px;
+}
+
+#style-2::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #D62929;
+}
+#style-2::-webkit-scrollbar-thumb:hover {
+  border-radius: 10px;
+  background-color: #e76161;
+}
+
+#pokemon-logo {
+  display: block;
+  margin: 15px auto;
+}
+
+.evolucoesTitulo {
+  height: 15%;
+}
+
+.pokemonsImagens {
+  width: 160px;
+  height: 160px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  object-fit: contain;
+  margin: 7px;
+  box-shadow: -5px 3px 15px rgb(75, 27, 27);
+}
+
+.escolha {
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #e23e3e 74%);
+  overflow-y: hidden;
+}

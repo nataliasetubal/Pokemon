@@ -1,0 +1,82 @@
+/* Formatações gerais */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Impact, fantasy;
+}
+
+h1, h2, p, a{
+  text-align: center;
+  color: #f89404;
+  text-shadow: 3px 2px #021f44;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 5% 0 0 0;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+button {
+  display: inline-block;
+  border-radius: 50px;
+  border-style: none;
+  background: none;
+  font-size: 1.6em;
+  font-family: Impact, fantasy;
+  color: #f89404;
+  text-shadow: 4px 1px black;
+}
+
+.evolucoes {
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  display: block;
+}
+
+.opcoes {
+  text-align: center;
+  width: 80%;
+  margin: 5% auto;
+}
+
+/* Backgrounds */
+
+
+
+.evolucaoWartortle {
+  background-image: radial-gradient( circle at 50% 50%, #91c7ff 0, #0e75f5 50%, #002b76 100%);
+  height: 100%;
+}
+.evolucaoIvysaur {
+  background-image: radial-gradient( circle at 50% 50%, #a9f56b 0, #0cbd41 50%, #00761e 100%);
+  height: 100%;
+}
+
+.evolucaoCharmander {
+  height: 100%;
+  background-image: radial-gradient( circle at 50% 50%, #ff8500 0, #ff6f00 12.5%, #ff5700 25%, #ff3b00 37.5%, #f50e0e 50%, #e4001c 62.5%, #d40024 75%, #c5002b 87.5%, #b70032 100%);
+}
+
+.evolucaoRaichu {
+  background-image: radial-gradient( circle at 50% 50%, #ffff8a 0, #fff959 25%, #f8ce05 50%, #d8a400 75%, #be8000 100%);
+  height: 100%;
+}
+
+.evolucaoMagnemite{
+  background-image: radial-gradient(circle at 49.65% 46.03%, #f5ffff 0, #f0ffff 12.5%, #e9f2f3 25%, #e0e1e1 37.5%, #d4cccc 50%, #c8b7b8 62.5%, #bea7aa 75%, #b69ba1 87.5%, #b0939b 100%);
+  height: 100%;
+}
+
+.evolucaoGastly{
+  background-image: radial-gradient(circle at 50% 50%, #f341df 0, #d42cda 25%, #af08d2 50%, #8500ca 75%, #5700c5 100%);
+  height: 100%;
+
+}

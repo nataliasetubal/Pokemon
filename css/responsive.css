@@ -1,0 +1,57 @@
+@media (min-width: 501px) and (max-width: 900px) {
+    button {
+      font-size: 1.9em;
+    }
+    .escolha {
+      height: 100%;
+      display: flex;
+      align-self: center;
+    }
+    #pokemon-logo {
+      height: 15%;
+      margin-top: 15%;
+      align-self: center;
+    }
+    .containerPokemons {
+      display: flex;
+      justify-content: space-around;
+      height: 25%;
+      margin: 0 auto;
+    }
+    img.pokemonsImagens {
+      width: 100px;
+      height: 100px;
+      padding: 5px;
+    }
+    h2 {
+      font-size: 2em;
+      margin: 23% 2%;
+    }
+    .evolucaoCharmander {
+      height: 100%;
+      display: flex;
+      align-self: center;
+    }
+    .evolucoes {
+      /* margin: 0 15% 5% 15%; */
+      width: 250px;
+      height: 250px;
+      object-fit: contain;
+      padding: 20% 0;
+      /* display: block; */
+    }
+    .opcoes {
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+    }
+    .evolucoesTitulo {
+      font-size: 2.5em;
+    }
+    .gifContainer{
+      left: 15%;
+      right: 15%;
+      top: 15%;
+      bottom: 40%;
+    }
+  }
